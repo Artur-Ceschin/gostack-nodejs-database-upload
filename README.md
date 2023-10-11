@@ -7,10 +7,45 @@
   <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
 </p>
 
-
 ## 💻 Projeto
 
-gostack-template-typeorm-upload
+This is the 'gostack-template-typeorm-upload' challenge. Its primary objectives include reinforcing essential concepts related to database configuration and usage using Docker and TypeORM. Additionally, the challenge involves implementing a service to upload CSV files and the underlying logic for creating transactions.
+
+Technologies used in this project
+
+- [Node](https://nodejs.org/en)
+- [Express](https://expressjs.com/pt-br/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TypeORM](https://typeorm.io/)
+- [Multer](https://www.npmjs.com/package/multer)
+- [cvs-parse](https://www.npmjs.com/package/csv-parse)
+
+---
+
+## Starting 🚀
+
+```bash
+# Clone this project
+$ git clone git@github.com:Artur-Ceschin/gostack-nodejs-database-upload.git
+
+# Access
+$ cd gostack-nodejs-database-upload
+
+# Install dependencies
+$ yarn
+
+# Run the project
+$ yarn dev:server
+
+# Create your PostgreSQL database
+$ docker run --name gostack_desafio06 -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+
+# Start your container
+$ docker start <YOUR DOCKER CONTAINER ID>
+
+
+# The server will initialize in the <http://localhost:3333>
+```
 
 ## 📝 Licença
 
@@ -19,20 +54,18 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 <p align="center">
-  Feito com 💜 by Rocketseat
+  Feito com 💜 by Rocketseat e Finalizado por Artur Ceschin
 </p>
-
 
 <!--START_SECTION:footer-->
 
-<br />
-<br />
+### Author
 
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
+---
+
+Made with ❤️ by Artur Ceschin 👋🏼 Please fell free to contact me!
+<br/>
+[![Linkedin Badge](https://img.shields.io/badge/-Artur-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/artur-peres-ceschin-programador/)](https://www.linkedin.com/in/artur-peres-ceschin-programador/)
+[![Gmail Badge](https://img.shields.io/badge/-artur.ceschin@.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:artur.ceschin@gmail.com)](mailto:artur.ceschin@gmail.com)
 
 <!--END_SECTION:footer-->
-
