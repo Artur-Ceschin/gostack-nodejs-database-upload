@@ -11,6 +11,8 @@
 
 This is the 'gostack-template-typeorm-upload' challenge. Its primary objectives include reinforcing essential concepts related to database configuration and usage using Docker and TypeORM. Additionally, the challenge involves implementing a service to upload CSV files and the underlying logic for creating transactions.
 
+## Technologies 👩‍💻
+
 Technologies used in this project
 
 - [Node](https://nodejs.org/en)
